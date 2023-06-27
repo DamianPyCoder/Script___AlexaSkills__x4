@@ -1,0 +1,37 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "inversor de palabras",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "ReverseWordIntent",
+          "slots": [
+            {
+              "name": "word",
+              "type": "AMAZON.LITERAL"
+            }
+          ],
+          "samples": [
+            "{word}",
+            "Invierte {word}",
+            "Dame la palabra {word}",
+            "Invertir {word}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
