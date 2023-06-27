@@ -1,0 +1,37 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "conversor de euros a dólares",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "ConvertCurrencyIntent",
+          "slots": [
+            {
+              "name": "amount",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "Convierte {amount} euros a dólares",
+            "Cuánto es {amount} euros en dólares",
+            "Convierte {amount} euros",
+            "Dime el valor de {amount} euros en dólares"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
